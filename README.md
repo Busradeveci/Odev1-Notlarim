@@ -1,7 +1,4 @@
 # Odev1-Notlarim
-
-Bu repository, **Yapay Zeka ve Teknoloji Akademisi** tarafından verilen ödevler ve projeler için oluşturulmuş bir GitHub deposudur. 
-
 ## Proje Amacı
 
 Bu proje, **GPT-2** modelini kullanarak **metin tamamlama** yapmak amacıyla oluşturulmuştur. Kullanıcıdan alınan bir başlangıç cümlesi ile **GPT-2** modeli, o cümleyi tamamlayacak şekilde yeni metinler üretmektedir. 
