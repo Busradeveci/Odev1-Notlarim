@@ -1,27 +1,27 @@
-# Odev1-Notlarim
-## Proje Amacı
+# Odev1-Notlarim - Text Completion using GPT-2
 
-Bu proje, **GPT-2** modelini kullanarak **metin tamamlama** yapmak amacıyla oluşturulmuştur. Kullanıcıdan alınan bir başlangıç cümlesi ile **GPT-2** modeli, o cümleyi tamamlayacak şekilde yeni metinler üretmektedir. 
+## Project Objective  
+This project uses the GPT-2 model for text completion. The goal is to take a starting sentence provided by the user and generate a continuation of that text using the GPT-2 model.
 
-## Kullanım
+## How to Use  
+1. **Text Generation**: The program takes a starting sentence from the user.
+2. **Model Processing**: The input text is sent to the GPT-2 model.
+3. **Result**: The model completes the input text and displays the completed sentence on the screen.
 
-1. **Text Generation**: Kullanıcıdan bir başlangıç cümlesi alır.
-2. **Model İşlemi**: Alınan metin, GPT-2 modeline gönderilir.
-3. **Sonuç**: Model, girilen metni tamamlar ve tamamlanan metin ekrana yazdırılır.
+## How it Works  
+1. The `transformers` library and GPT-2 model are loaded.
+2. The program takes user input for the starting sentence.
+3. The GPT-2 model generates and completes the text, then outputs the result.
 
-## Nasıl Çalışır?
-
-1. `transformers` kütüphanesini ve GPT-2 modelini yükleriz.
-2. Kullanıcıdan metin girişi alırız.
-3. Model, verilen metni tamamlar ve sonucu ekrana yazdırır.
-
-## Kullanım Örneği
-
+## Example Usage  
+Run the script with:
 ```bash
 $ python text_generator.py
-Enter a starting sentence: The future of AI is
-AI continuation: The future of AI is an exciting and rapidly evolving field. With advancements in machine learning and natural language processing, AI is poised to revolutionize many industries.
 ```
-
-
-
+Then enter a starting sentence when prompted:
+```
+Enter a starting sentence: The future of AI is
+```
+Output:
+```
+AI continuation: The future of AI is an exciting and rapidly evolving field. With advancements in machine learning and natural language processing, AI is poised to revolutionize many industries.
